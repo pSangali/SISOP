@@ -1,0 +1,10 @@
+sh tests/rodar_testes.sh
+== Matrizes obrigatorias ==
+Ex   Dim       Esperado Sequencial  Paralelo(2/3/4/8 threads)
+1    5x5       3        3           3 3 3 3 
+2    6x8       4        4           4 4 4 4 
+3    8x8       5        5           5 5 5 5 
+4    9x12      6        6           6 6 6 6 
+5    12x12     7        7           7 7 7 7 
+== Matrizes aleatorias (sequencial x paralelo) ==
+TODOS OS TESTES PASSARAM

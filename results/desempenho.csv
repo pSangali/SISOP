@@ -1,0 +1,8 @@
+versao,threads,objetos,mediana_ms,aceleracao
+sequencial,1,567486,772.572,1.00
+paralelo,1,567486,799.808,0.97
+paralelo,2,567486,457.196,1.69
+paralelo,4,567486,293.807,2.63
+paralelo,6,567486,230.825,3.35
+paralelo,8,567486,202.843,3.81
+paralelo,12,567486,166.054,4.65
