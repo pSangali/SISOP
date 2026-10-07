@@ -128,4 +128,5 @@ ser threads de hardware (SMT) que compartilham unidades de execução. Com 1 thr
 ligeiramente **mais lenta** (0,97x) que a sequencial: paga o vetor extra de rótulos e a consolidação sem
 ganho de concorrência. Nas matrizes obrigatórias (≤144 células) a paralela também é mais lenta,
 pois o custo de criar threads supera o trabalho útil; por isso há uma matriz grande para a medição.
-Os números variam com a máquina; reproduza com `make bench`.
+Os números variam com a máquina; e reproduza com `make bench`.
+
